@@ -3,3 +3,7 @@ body{
     color: white;
     font: arial, normal, 50;
 }
+
+mark{
+    background-color: rgb(94, 24, 160);
+}
