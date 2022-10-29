@@ -1,7 +1,9 @@
+
 body{
-    background-color: black;
-    color: white;
-    font: arial, normal, 50;
+background-image: linear-gradient(to bottom, #E831EE, #8F4DB9, #561CEA );
+color: black;
+font: 50px, normal, arial;
+
 }
 
 mark{
