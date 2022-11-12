@@ -1,25 +1,35 @@
-@charset "TF-8";
+@charset "UTF-8";
 *{
     font-family: Arial, Helvetica, sans-serif;
 
 }
 body{
-background-image: linear-gradient(to bottom, #E831EE, #8F4DB9, #561CEA );
-color: black;
+background-color:white;
+color: rgb(0, 0, 0);
 }
 
 main{
-    background-color: white;
+    background-color: rgb(172, 22, 177);
    border-radius: 10px;
-  box-shadow: 5px 5px 15px #2c198bb6;
+  box-shadow: 5px 5px 15px #312727;
    margin-bottom: 25px;
   width: 600px;
    padding: 10px;
+}
+
+#principal{
+    text-align: center;
 }
 
 p{
     text-align: justify;
 }
 mark{
-    background-color: rgb(94, 24, 160);
+    background-color: rgb(41, 10, 153);
+}
+
+a{
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
 }

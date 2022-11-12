@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: brown;
+}
+
+main{
+    background-color: white;
+    background-color: white;
+    border-radius: 10px;
+   box-shadow: 5px 5px 15px rgb(58, 32, 32);
+    margin-bottom: 25px;
+   width: 600px;
+    padding: 10px;
+}
+
+div > p {
+
+    display: none;
+    
+    }
+    
+    div:hover > p{
+    
+    display: block;
+        }
+    
+    div:hover{
+    
+     color:#F739B5;
+    
+    }
