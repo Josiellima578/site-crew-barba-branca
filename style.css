@@ -156,6 +156,33 @@ aside > ul{
     list-style-type: '\2693\00A0\00A0';
     list-style-position: inside;
 }
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.nomal{
+    background-color: white;
+    color: rgb(17, 17, 17);
+}
+
+section.image{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+section#image{
+    background-image: url(image/Quem-matou-o-Barba-Branca.png);
+    background-position: center center;
+}
+
 footer{
     background-color: #36062e;
     color: white;
