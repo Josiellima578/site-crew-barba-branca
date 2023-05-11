@@ -33,11 +33,11 @@ body{
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
     min-height: 150px;
-    text-align: center;
     padding-top: 40px
 }
 
 header > h1{
+    text-align: center;
     color: white;
     font-family: var(--font-destaque);
     font-size: 3em;
@@ -45,35 +45,37 @@ header > h1{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.705);
 }
 
-header > p{
-    font-family: var(--font-padrao);
-    font-size: 1.2em;
-    color: white;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.705);
+span#aba{
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: 50px;
+    padding: 5px;
+    cursor: pointer;
 }
 
-nav{
-    background-color: #36062e;
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.507);
+span#aba:hover{
+    background-color: var(--cor3);
 }
 
-nav > a{
-    color: white;
+.inter nav{
+    display: none;
+}
+
+.inter nav ul{
+    list-style-type: none;
+}
+
+.inter nav ul li a{
+    display: block;
     padding: 10px;
-    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: .5s;
+    text-align: center;
+    color: white;
 }
 
-nav > a:hover {
-    background-color: var(--cor1);
-    color: var(--cor3);
+.inter nav ul li a:hover{
+    background-color: rgba(25, 37, 33, 0.678);
 }
 
 main{
@@ -179,7 +181,7 @@ section > p {
 }
 
 section#image{
-    background-image: url(image/Quem-matou-o-Barba-Branca.png);
+    background-image: url(../assents/image/Quem-matou-o-Barba-Branca.png);
     background-position: center center;
 }
 

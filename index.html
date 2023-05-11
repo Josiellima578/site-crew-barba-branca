@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marineford</title>
-    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" href="assents/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/style.css">
  </head>
- <body>
+ <body >
     <header>
-        <h1>A GUERRA DE MARINEFORD</h1>
-        <P>ONDE TUDO COMEÇOU</P>
+        <h1>MARINEFORD</h1>
+           <div class="inter">
+            <span id="aba" class="material-icons" onclick="clickMenu()">menu</span>
+            <nav id="itens">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">galeria</a></li>
+                    <li><a href="#">produtos</a></li>
+                    <li><a href="#">ajuda</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="#">home</a>
-        <a href="#">noticias</a>
-        <a href="#">novidades</a>
-        <a href="#">ajuda</a>
-    
-    </nav>
     <main>
         <article>
             <h1>A calmaria antes da tempestade: Revelado o Segredo de Ace</h1>
@@ -37,20 +41,42 @@
                         <li>5 - Garp</li>
                     </ul>
                 </aside>
+
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque hic dignissimos dolorum assumenda maiores eveniet, a, sapiente beatae repellendus voluptas error neque, officia veniam sit odit nihil ad repudiandae nemo.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores accusantium fuga officia sequi rerum consectetur. Corrupti harum atque, quidem error saepe cumque vel aliquam, eos vero ad quibusdam laudantium quas!
+                </p>
+            </article>
             <section class="image" id="image">
                 <p>Voltando no local da execução, <strong>Sengoku</strong> diz á <strong>Monkey D. Garp</strong> que ele vai falar "toda a verdade" ao público, Garp responde que ele pode fazer o que ele deseja. Sengoku, em seguida, sobe ao palco e ordena que os executores recuem um momento, antes de se dirigir ao público através de um Den Den Mushi (um caracol comunicador). Ele começa afirmando que havia algo crítico que ele precisava compartilhar sobre Ace. Então, Sengoku pergunta a Portgas D. Ace quem é o seu pai, e ele lhe responde que é Barba Branca, mas Sengoku afirma que não. Sengoku, em seguida, continua a dizer que os Marinheiros procuraram uma ilha com a possibilidade de que uma mulher deu à luz uma criança. Eles procuraram entre os recém-nascidos, as crianças ainda por nascer, e até mesmo entre as mães, mas não encontraram nada. No entanto, havia uma razão para isso, que era a mãe de Ace.
                 <strong>Portgas D. Rouge</strong> (a mãe de Ace), que era do South Blue, em uma ilha conhecida como Baterilla, realizou um feito que até mesmo os marinheiros não acharam que fosse possível. Ela tinha mantido Ace em seu ventre durante 20 meses completos, muito além do ponto de parto natural de Ace. Quando Ace finalmente nasceu, Rouge morreu, depois de ter usado toda a sua força. Isto tinha ocorrido exatamente um ano e três meses após a morte do verdadeiro pai de Ace. Sengoku, em seguida, anuncia aos Marines e ao mundo que o pai de Ace não é nenhum outro, a não ser o próprio Gol D. Roger. Enquanto os Marines entram em choque com isso, Monkey D. Garp lembra de si mesmo quando Roger pediu-lhe para cuidar de Ace, citando que a criança não tinha qualquer pecado para não nascer.</p>
             </section>
 
-            <div class="video">
-                <iframe width="560" height="315" src="videos/www.SaveFrom.To---A HISTORIA DA GUERRA DE  MARINEFORD - O ONE PIECE EXISTE.mp4" title="marineford player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-            </div>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores culpa numquam impedit dignissimos exercitationem quis harum accusantium, voluptate, est ipsa. Nam nesciunt provident, voluptatum totam excepturi animi explicabo quos.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas reprehenderit error doloremque? Consequuntur atque soluta magnam quos deserunt vero, eos ut? Numquam earum sed sint, ipsa odio aliquam voluptatem aliquid.
+                </p>
+            </article>
+
+                <div class="video">
+                    <iframe width="560" height="315" src="assents/videos/www.SaveFrom.To---A HISTORIA DA GUERRA DE  MARINEFORD - O ONE PIECE EXISTE.mp4" title="marineford player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
 
         </article>
     </main>
     <footer>
-        <p>Criador por <a href="https://www.instagram.com/ziellima_/" target="_blank">Ziel</a> para o público</p>
+        <p>Criador por <a href="https://www.instagram.com/patonexe/" target="_blank">Ziel</a> para o público</p>
     </footer>
+
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
  </body>
  </html>
