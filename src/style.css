@@ -57,9 +57,7 @@ span#aba:hover{
     background-color: var(--cor3);
 }
 
-.inter nav{
-    display: none;
-}
+
 
 .inter nav ul{
     list-style-type: none;
@@ -75,7 +73,7 @@ span#aba:hover{
 }
 
 .inter nav ul li a:hover{
-    background-color: rgba(25, 37, 33, 0.678);
+    background-color: rgb(27, 4, 49);
 }
 
 main{

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    span#aba{
+        display: none;
+    }
+    .inter nav{
+        background-color: rgb(99, 3, 102);
+        display: block;
+        margin-top: 50px;
+    }
+
+    .inter nav ul li{
+        display: inline-block;
+    }
+    
+    .inter nav ul li a{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    span#aba{
+        display: none;
+    }
+    .inter nav{
+        background-color: rgb(99, 3, 102);
+        display: block;
+        margin-top: 50px;
+    }
+
+    .inter nav ul li{
+        display: inline-block;
+    }
+    
+    .inter nav ul li a{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
